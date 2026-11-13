@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Matches the Pleos app area so the window never flashes another color before Compose draws. -->
+    <color name="shimpyo_background">#FFF6F8FC</color>
+
+    <style name="Theme.Shimpyo" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/shimpyo_background</item>
+        <item name="android:statusBarColor">@color/shimpyo_background</item>
+        <item name="android:navigationBarColor">@color/shimpyo_background</item>
+    </style>
+</resources>

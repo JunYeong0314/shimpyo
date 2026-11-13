@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application>
+        <!-- Debug builds only: lets adb drive the demo flow while recording the contest video. -->
+        <receiver
+            android:name="com.shimpyo.app.demo.DemoCommandReceiver"
+            android:exported="true" />
+    </application>
+
+</manifest>

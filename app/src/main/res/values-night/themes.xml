@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="shimpyo_background">#FF0E1014</color>
+
+    <style name="Theme.Shimpyo" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/shimpyo_background</item>
+        <item name="android:statusBarColor">@color/shimpyo_background</item>
+        <item name="android:navigationBarColor">@color/shimpyo_background</item>
+    </style>
+</resources>

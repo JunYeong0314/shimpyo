@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Shimpyo mark: a white comma (쉼표) on Hyundai Blue. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <path
+        android:fillColor="#FF002C5F"
+        android:pathData="M10,2h28a8,8 0,0 1,8 8v28a8,8 0,0 1,-8 8h-28a8,8 0,0 1,-8 -8v-28a8,8 0,0 1,8 -8z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M24,14a7,7 0,1 1,-0.01 0z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M30.5,22.5c0.6,7 -2.6,12.6 -9.2,15.6l-1.6,-2.4c4.2,-2.2 6.2,-5.6 6.4,-9.6z" />
+</vector>

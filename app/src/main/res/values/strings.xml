@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Shimpyo</string>
+
+    <!-- Units -->
+    <string name="duration_h">%1$d h</string>
+    <string name="duration_hm">%1$d h %2$d min</string>
+    <string name="duration_m">%1$d min</string>
+    <string name="distance_km">%1$.1f km</string>
+    <string name="countdown_mmss">%1$02d:%2$02d</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title">Welcome to Shimpyo</string>
+    <string name="onboarding_body">When you have been driving for a while, Shimpyo asks how sleepy you are, guides you to a rest stop, and turns the cabin into a place to recharge.</string>
+    <string name="onboarding_consent_title">While you rest, Shimpyo may briefly adjust</string>
+    <string name="onboarding_consent_note">Everything returns to how it was when the break ends.</string>
+    <string name="consent_lights">Lighting</string>
+    <string name="consent_climate">Climate</string>
+    <string name="consent_seat">Seat heating and ventilation</string>
+    <string name="consent_window">Windows</string>
+    <string name="consent_door">Door lock</string>
+    <string name="onboarding_permissions_title">Permissions</string>
+    <string name="permission_location">Location, to find rest stops</string>
+    <string name="permission_notifications">Notifications, for background status</string>
+    <string name="permission_grant">Allow</string>
+    <string name="permission_granted">Allowed</string>
+    <string name="nap_length_title">Nap length</string>
+    <string name="onboarding_start">Start</string>
+    <string name="onboarding_parked_only">Please finish setup after parking.</string>
+
+    <!-- Home (parked) -->
+    <string name="home_continuous">Driving without a break</string>
+    <string name="home_next_check_label">Next check-in</string>
+    <string name="home_start_rest">Start a break</string>
+    <string name="sdk_vehicle">Vehicle</string>
+    <string name="sdk_navi">Navigation</string>
+    <string name="sdk_voice">Voice</string>
+    <string name="sdk_location">Location</string>
+    <string name="connection_lost">%1$s not connected</string>
+
+    <!-- Driving (distraction optimized) -->
+    <string name="driving_suggested">Suggested stop</string>
+    <string name="driving_rest_now">I need a break</string>
+    <string name="driving_heading_label">Heading to</string>
+    <string name="driving_arrived_label">Arrived</string>
+    <string name="driving_arrived_hint">Shift to P and your break begins.</string>
+    <string name="driving_listening">Listening…</string>
+    <string name="proposal_cafe">Café</string>
+    <string name="proposal_yes">Yes</string>
+    <string name="proposal_no">Not now</string>
+
+    <!-- Rest flow (parked only) -->
+    <string name="rest_choose_title">How would you like to rest?</string>
+    <string name="mode_name_car_nap">Car nap</string>
+    <string name="mode_car_nap_desc">Lights down, then a gentle wake-up</string>
+    <string name="mode_name_coffee_nap">Coffee nap</string>
+    <string name="mode_coffee_nap_desc">Coffee first, then close your eyes</string>
+    <string name="mode_name_stretch">Stretch</string>
+    <string name="mode_stretch_desc">Voice-guided stretches</string>
+    <string name="resting_title">Resting</string>
+    <string name="resting_wake_now">Wake me now</string>
+    <string name="resting_end">End break</string>
+    <string name="waking_title">Waking you up gently</string>
+    <string name="check_title">Quick condition check</string>
+    <string name="check_in_progress">Please answer by voice</string>
+    <string name="check_good">You are as sharp as usual.</string>
+    <string name="check_more">A little slower than usual.</string>
+    <string name="check_go">Let\'s go</string>
+    <string name="check_five_more">5 more minutes</string>
+    <string name="check_disclaimer">For reference only. Not a medical assessment.</string>
+    <string name="family_mode_badge">Driver zone only</string>
+
+    <!-- Demo controls (debug builds) -->
+    <string name="debug_title">Demo</string>
+    <string name="debug_time_scale">×%1$d</string>
+    <string name="debug_add_30">+30 min</string>
+    <string name="debug_check_in">Check-in</string>
+    <string name="debug_arrive">Arrive</string>
+    <string name="debug_answers">Answer</string>
+
+    <!-- Notification -->
+    <string name="notif_channel">Rest monitoring</string>
+    <string name="notif_monitoring">Keeping an eye on your driving time</string>
+
+    <!-- Widget -->
+    <string name="widget_desc">Driving time and the next break</string>
+    <string name="widget_rest_now">Take a break</string>
+    <string name="widget_status_monitoring">Next check-in in %1$s</string>
+    <string name="widget_status_resting">Resting · %1$s left</string>
+    <string name="widget_status_heading">Heading to %1$s</string>
+
+    <!-- Voice lines (TextToSpeech) -->
+    <string name="tts_checkin">You have been driving for %1$s. On a scale of one to nine, how sleepy do you feel?</string>
+    <string name="tts_checkin_retry">Sorry, I didn\'t catch that. Please say a number from one to nine.</string>
+    <string name="tts_checkin_ok">Good. I\'ll check in again in %1$d minutes.</string>
+    <string name="tts_propose_long_drive">You have been driving for almost two hours.</string>
+    <string name="tts_propose">%1$s is %2$s ahead. Shall we take a break there?</string>
+    <string name="tts_propose_cafe">It has a café, good for a coffee nap.</string>
+    <string name="tts_waypoint_added">Added %1$s as a stop.</string>
+    <string name="tts_waypoint_failed">I couldn\'t add the stop. Please pull into the next rest area.</string>
+    <string name="tts_snooze">Okay. I\'ll ask again in %1$d minutes.</string>
+    <string name="tts_no_rest_area">I couldn\'t find a rest stop nearby. Please take a break somewhere safe.</string>
+    <string name="tts_user_request">Let me find a rest stop nearby.</string>
+    <string name="tts_arrived">You have arrived. Park the car and I\'ll get your break ready.</string>
+    <string name="tts_choose_mode">Would you like a %1$d-minute car nap, a coffee nap, or a five-minute stretch?</string>
+    <string name="tts_nap_intro">Let\'s begin. Recline your seat and get comfortable.</string>
+    <string name="tts_family_mode">Since others are on board, I\'ll dim only the driver\'s side.</string>
+    <string name="tts_coffee_intro">Close your eyes right after your coffee. Caffeine kicks in in about twenty minutes.</string>
+    <string name="tts_breath_in">Breathe in slowly.</string>
+    <string name="tts_breath_out">And breathe out.</string>
+    <string name="tts_stretch_1">Slowly tilt your head to the left, then to the right.</string>
+    <string name="tts_stretch_2">Lift your shoulders toward your ears, then let them drop.</string>
+    <string name="tts_stretch_3">Lace your fingers and push your arms forward.</string>
+    <string name="tts_stretch_4">If it is safe, step out and take a short walk.</string>
+    <string name="tts_stretch_done">Nice work. Ready when you are.</string>
+    <string name="tts_wake_greeting">Welcome back. Let\'s do a quick check.</string>
+    <string name="tts_reverse_digits">Say these numbers in reverse order. %1$s.</string>
+    <string name="tts_condition_good">You are as sharp as usual. You are good to go.</string>
+    <string name="tts_condition_more">You are a bit slower than usual. Try five more minutes or a quick stretch.</string>
+    <string name="tts_resume_info">I\'ll check in again in %1$d minutes.</string>
+    <string name="tts_rest_aborted">The car started moving, so I stopped the break and restored your settings.</string>
+</resources>
