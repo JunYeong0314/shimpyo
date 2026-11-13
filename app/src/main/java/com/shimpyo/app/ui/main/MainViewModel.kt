@@ -14,14 +14,14 @@ import javax.inject.Inject
 @HiltViewModel
 class MainViewModel @Inject constructor(
     private val engine: ShimpyoEngine,
-) : MviViewModel<MainState, MainIntent, MainEffect>(MainState(demoControls = BuildConfig.DEBUG)) {
+) : MviViewModel<MainState, MainIntent, MainEffect>(MainState(demoControls = BuildConfig.DEMO_CONTROLS)) {
 
     init {
         engine.start()
         viewModelScope.launch {
             engine.state.collect { s -> setState { reduce(s) } }
         }
-        if (BuildConfig.DEBUG) {
+        if (BuildConfig.DEMO_CONTROLS) {
             viewModelScope.launch {
                 DemoUi.panelVisible.collect { visible -> setState { copy(demoControls = visible) } }
             }

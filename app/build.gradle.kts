@@ -16,6 +16,11 @@ android {
         targetSdk = 34 // Pleos Connect Emulator v2.1.0 runs API 34
         versionCode = 1
         versionName = "0.1.0"
+
+        // Demo strip (time scale, check-in, arrival, answer buttons) in every build of the contest entry:
+        // judges run the release APK on the emulator and cannot drive for 90 minutes to reach a check-in.
+        // TODO(release): Set to false for Pleos App Market builds.
+        buildConfigField("boolean", "DEMO_CONTROLS", "true")
     }
 
     buildTypes {
